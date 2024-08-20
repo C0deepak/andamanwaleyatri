@@ -1,0 +1,115 @@
+.cover-water-bg {
+    background-image: url('/assets/images/watersports.jpg');
+    background-size: cover;
+    animation: moveBg 30s linear infinite;
+}
+
+.cover-sightseeing-bg{
+    background-image: url('/assets/images/sightseeing.jpg');
+    background-size: cover;
+    animation: moveBg 30s linear infinite;
+}
+
+.cover-bg-size{
+    width: 500px;
+    height: 160px;
+}
+
+@keyframes moveBg {
+    0% {
+        background-position: 60% 60%;
+    }
+    100% {
+        background-position: 51% 21%;
+    }
+}
+
+@media (min-width: 400px) {
+    .cover-bg-size {
+        width: 380px;
+        height: 150px;
+    }
+}
+
+@media (min-width: 600px) {
+    .cover-bg-size {
+        width: 550px;
+    }
+}
+
+@media (min-width: 765px) {
+    .cover-bg-size {
+        height: 250px;
+        width: 740px;
+    }
+}
+
+@media (min-width: 810px) {
+    .cover-bg-size {
+        height: 250px;
+        width: 740px;
+    }
+}
+
+@media (min-width: 1040px) {
+    .cover-bg-size {
+        height: 340px;
+        width: 900px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .cover-bg-size {
+        height: 370px;
+        width: 1000px;
+    }
+}
+@media (min-width: 1300px) {
+    .cover-bg-size {
+        height: 400px;
+        width: 1200px;
+    }
+}
+
+@media (min-width: 1500px) {
+    .cover-bg-size {
+        width: 1370px;
+    }
+}
+@media (min-width: 1600px) {
+    .cover-bg-size {
+        width: 1470px;
+    }
+}
+@media (min-width: 1700px) {
+    .cover-bg-size {
+        height: 420px;
+        width: 1670px;
+    }
+}
+
+
+/* 
+@media (max-width: 400px) {
+    .cover-bg {
+        top: 50%;
+    }
+}
+
+@media (max-width: 800px) {
+    .cover-bg {
+        top: 45%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .cover-bg {
+        top: 40%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .cover-bg {
+        top: 30%; 
+    }
+} */

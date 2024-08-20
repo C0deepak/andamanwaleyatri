@@ -1,0 +1,67 @@
+@media (min-width: 768px) {
+    .tablet-desktop-whatsapp {
+      position: fixed;
+      bottom: 1rem;
+      left: 1rem;
+      z-index: 999;
+    }
+  }
+@media (min-width: 820px) {
+    .tablet-desktop-whatsapp {
+      position: fixed;
+      bottom: 7px;
+      left: 1rem;
+      z-index: 999;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    /* For mobile */
+    .mobile-whatsapp {
+      position: fixed;
+      bottom: 2rem;
+      left: 1rem;
+      z-index: 999;
+    }
+    
+    .mobile-whatsapp a {
+      display: block;
+      width: 3rem;
+      height: 3rem;
+    }
+  }
+
+  /* chatbot styling */
+
+  @media (min-width: 768px) {
+    .tablet-desktop-chatbot {
+      position: fixed;
+      bottom: 1rem;
+      right: 1rem;
+      z-index: 999;
+    }
+  }
+@media (min-width: 820px) {
+    .tablet-desktop-chatbot {
+      position: fixed;
+      bottom: 7px;
+      right: 1rem;
+      z-index: 999;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    /* For mobile */
+    .mobile-chatbot {
+      position: fixed;
+      bottom: 2rem;
+      right: 1rem;
+      z-index: 999;
+    }
+    
+    .mobile-chatbot a {
+      display: block;
+      width: 3rem;
+      height: 2rem;
+    }
+  }

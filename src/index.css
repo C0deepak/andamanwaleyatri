@@ -1,0 +1,24 @@
+@layer tailwind-base, primereact, tailwind-utilities;
+
+@layer tailwind-base {
+  @tailwind base;
+}
+
+@layer tailwind-utilities {
+  @tailwind components;
+  @tailwind utilities;
+}
+
+@layer base {
+  .active {
+    @apply text-primary;
+  }
+}
+
+.bgHero1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('./assets/images/flightAttractivePic.gif');
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+}
