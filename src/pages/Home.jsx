@@ -191,7 +191,7 @@ const Home = () => {
                 <div className="md:w-[50%] xl:p-8 p-4 w-full">
                   <img
                     alt="brochure image"
-                    src={'https://travel2andamans.com/images/l1.jpg'}
+                    src={'https://maharajatravels.in/wp-content/uploads/2023/08/Andaman-budget-package5.jpg'}
                     width={5488}
                     height={3659}
                     className="w-full h-full rounded-sm shadow-2xl"
