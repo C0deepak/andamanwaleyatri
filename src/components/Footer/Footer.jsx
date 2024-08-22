@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-key */
-import FooterLogo from '../../assets/Andaman Wale Yatri final transparent.png';
+import FooterLogo from '../../assets/logonew.png';
 import {
   FaFacebook,
   FaInstagram,
@@ -87,26 +87,26 @@ const Footer = () => {
                 {/* TravelloGo */}
               </h1>
               <p className="text-sm">
-                Embark on an Andaman odyssey with Andaman Wale Yatri, where
+                Embark on an Andaman odyssey with Safar Andaman, where
                 azure waters meet pristine shores. Immerse in bespoke
                 experiences, curated for your wanderlust
               </p>
               <br />
               <div className="flex items-center gap-3 ">
                 <FaLocationArrow className="text-red-500" />
-                <p>Kamraj Nagar, South Andaman, 744105</p>
+                <p>Port Blair, South Andaman, 744101</p>
               </div>
               <div className="flex items-center gap-3 mt-3 ">
                 <FaMailBulk className="text-black-500" />
-                <p>plantripandaman@gmail.com</p>
+                <p>safarandaman@gmail.com</p>
               </div>
               <div className="flex items-center gap-3 mt-3 ">
                 <CgWebsite className="text-sky-500" />
-                <p>www.plantripandaman.com</p>
+                <p>www.safarandaman.com</p>
               </div>
               <div className="flex items-center gap-3 mt-3">
                 <FaMobileAlt className="text-gray-500" />
-                <p>+91 7063948704, +91 9434260489</p>
+                <p>+91 7908012356, +91 9679597655</p>
               </div>
               {/* social handles */}
               <div>
@@ -194,7 +194,7 @@ const Footer = () => {
           </div>
           <div>
             <div className="text-center py-5 border-t-2 border-gray-300/50 bg-primary text-white">
-              @ 2024 All rights reserved by Andaman Wale Yatri
+              @ 2024 All rights reserved by Safar Andaman
             </div>
           </div>
         </div>

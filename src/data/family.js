@@ -33,7 +33,7 @@ const familyData = [
     duration: "4 Nights & 5 Days",
     totalCost: "₹ 26,500",
     discountedCost: "₹ 22,500",
-    image: "https://travel2andamans.com/images/f3.jpg",
+    image: "https://media1.thrillophilia.com/filestore/jezkw1hz3yrpmiqlbobdguc5f54m_shutterstock_1938178192.jpg?w=400&dpr=2",
     description:
       "4 Night 5 Days Andaman family package including hotels, stay, transfer, cruises, entry tickets, breakfast and more.",
     lastUpdated: "Last updated 3 mins ago",
@@ -48,7 +48,7 @@ const familyData = [
     duration: "5 Nights & 6 Days",
     totalCost: "₹ 26,500",
     discountedCost: "₹ 22,500",
-    image: "https://travel2andamans.com/images/f4.jpg",
+    image: "https://www.travelonline.com/thailand/holiday-packages/family/family-on-beach-88409-thumb.jpg",
     description:
       "5 Night 6 Days Andaman family package including hotels, stay, transfer, cruises, entry tickets, breakfast and more.",
     lastUpdated: "Last updated 3 mins ago",
@@ -63,7 +63,7 @@ const familyData = [
     duration: "6 Nights & 7 Days",
     totalCost: "₹ 36,200",
     discountedCost: "₹ 30,500",
-    image: "https://travel2andamans.com/images/f5.jpg",
+    image: "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/book-now-family-holiday-packages-in-australia-sekaptravels.jpg",
     description:
       "6 Night 7 Days Andaman family package including hotels, stay, transfer, cruises, entry tickets, breakfast and more.",
     lastUpdated: "Last updated 3 mins ago",
@@ -78,7 +78,7 @@ const familyData = [
     duration: "7 Nights & 8 Days",
     totalCost: "₹ 40,498",
     discountedCost: "₹ 34,500",
-    image: "https://travel2andamans.com/images/f6.jpg",
+    image: "https://www.travelsupermarket.com/cdn-cgi/image/f=auto,width=495,height=500,fit=cover,quality=75/sonic/image/source/holiday-type/family/holidaytype-family.jpg",
     description:
       "7 Night 8 Days Andaman family package including hotels, stay, transfer, cruises, entry tickets, breakfast and more.",
     lastUpdated: "Last updated 3 mins ago",

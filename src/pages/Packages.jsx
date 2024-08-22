@@ -46,7 +46,7 @@ const Packages = () => {
     <div className="">
       <div className="relative h-[60vh] overflow-hidden">
         <img
-          src={"https://travel2andamans.com/images/p1.jpg"}
+          src={"https://andamantourtravel.com/assets/img/banner-or3.jpg"}
           height={3919}
           width={5938}
           className="object-cover w-full h-full"

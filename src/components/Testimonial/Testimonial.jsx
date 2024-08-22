@@ -5,19 +5,19 @@ const testimonialData = [
   {
     id: 1,
     name: 'Samuel',
-    text: 'Andaman Wale Yatri exceeded expectations! From crystal-clear waters to personalized service, every moment felt like a dream. A journey with heart and soul.',
+    text: 'Safar Andaman exceeded expectations! From crystal-clear waters to personalized service, every moment felt like a dream. A journey with heart and soul.',
     img: 'https://picsum.photos/101/101',
   },
   {
     id: 1,
     name: 'John Doe',
-    text: "An absolute delight! Andaman Wale Yatri's meticulous planning and warm hospitality made our trip extraordinary. Unforgettable memories in the lap of nature. Highly recommended.",
+    text: "An absolute delight! Safar Andaman's meticulous planning and warm hospitality made our trip extraordinary. Unforgettable memories in the lap of nature. Highly recommended.",
     img: 'https://picsum.photos/102/102',
   },
   {
     id: 1,
     name: 'Smith',
-    text: 'A seamless blend of adventure and tranquility. Andaman Wale Yatri orchestrated our perfect getaway. Impeccable service, breathtaking locales – a slice of paradise expertly delivered.',
+    text: 'A seamless blend of adventure and tranquility. Safar Andaman orchestrated our perfect getaway. Impeccable service, breathtaking locales – a slice of paradise expertly delivered.',
     img: 'https://picsum.photos/103/103',
   },
 ];

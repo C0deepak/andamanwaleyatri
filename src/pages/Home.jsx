@@ -146,13 +146,13 @@ const Home = () => {
                   JUST ENJOY
                 </h1>
                 <p className="font-medium text-slate-700 sm:leading-8 leading-6">
-                  Embark on a journey with Andaman Wale Yatri and discover the
+                  Embark on a journey with Safar Andaman and discover the
                   allure of these paradisiacal islands. Whether you are a solo
                   adventurer, a couple seeking a romantic escape, or a family
                   yearning for bonding moments, our diverse range of packages
                   caters to every traveler. Let us be your compass as you
                   navigate the beauty of the Andaman Islands, creating memories
-                  that transcend the ordinary. Andaman Wale Yatri - where every
+                  that transcend the ordinary. Safar Andaman - where every
                   journey is a story waiting to be told.
                 </p>
                 <div className="flex text-red-500 gap-x-10 text-lg mt-8 font-semibold leading-9 xs:px-4 justify-center md:justify-evenly flex-col sm:flex-row">
@@ -177,7 +177,7 @@ const Home = () => {
                     Discover Andaman&apos;s Timeless Allure
                   </h1>
                   <p className="font-[450]">
-                    Embark on an Andaman odyssey with Andaman Wale Yatri, where
+                    Embark on an Andaman odyssey with Safar Andaman, where
                     azure waters meet pristine shores. Immerse in bespoke
                     experiences, curated for your wanderlust. Let every moment
                     be a chapter in your unforgettable travel tale.
@@ -199,9 +199,9 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="flex items-center justify-center mt-10 mx-auto">
+            {/* <div className="flex items-center justify-center mt-10 mx-auto">
               <Flightsearchform />
-            </div>
+            </div> */}
             <FerryPackage />
             {/* <div className="w-full flex sm:flex-row flex-col mt-20 px-0 xl:px-20 xl:mt-16 lexs:px-1 gap-x-8 justify-evenly xl:mb-16 md:mb-12 sm:mb-8 mb-4">
             <div className="flex flex-col sm:w-[50%] w-full sm:px-0 px-4">

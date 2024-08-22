@@ -53,10 +53,10 @@ const About = () => {
     <div className="">
       <div className="flex flex-col w-full md:w-3/4 items-center justify-center gap-6 mx-auto text-center">
         <h1 className="text-5xl font-semibold w-3/4 md:w-full pt-5 mt-28">
-          Why Choose Andaman Wale Yatri
+          Why Choose Safar Andaman
         </h1>
         <p className="w-3/4 md:w-4/5 text-base font-extralight">
-          "Andaman Wale Yatri offers a perfect blend of breathtaking natural
+          "Safar Andaman offers a perfect blend of breathtaking natural
           beauty and diverse activities, ensuring a memorable experience. With
           professional services, customization options, and positive customer
           reviews, it provides value-for-money packages for a seamless and
@@ -156,24 +156,24 @@ const About = () => {
 
       <div className="relative flex flex-col w-full px-10 items-center justify-center gap-6 my-24 mx-auto text-center">
         <p className="md:w-full text-base font-normal">
-          " Andaman Wale Yatri beckons travelers to explore the pristine beauty
+          " Safar Andaman beckons travelers to explore the pristine beauty
           and adventure of the Andaman and Nicobar Islands. Their meticulously
           crafted packages promise a harmonious fusion of breathtaking natural
           landscapes and a myriad of activities, including water sports and
           cultural exploration. With a focus on professionalism, the agency
           offers seamless travel experiences, boasting customization options
           that allow visitors to tailor their itineraries to individual
-          preferences. Backed by positive customer reviews, Andaman Wale Yatri
+          preferences. Backed by positive customer reviews, Safar Andaman
           stands out as a trusted choice, ensuring value-for-money packages and
           an unforgettable journey for every traveler. "
           <br />
           <br />" From the azure waters and sandy beaches to historical
-          landmarks like Cellular Jail, Andaman Wale Yatri curates experiences
+          landmarks like Cellular Jail, Safar Andaman curates experiences
           that capture the essence of the islands. The company's commitment to
           providing top-notch services is reflected in its knowledgeable guides,
           reliable transportation, and responsive customer support. As travelers
           immerse themselves in the vibrant culture and diverse activities
-          offered by the Andaman Islands, Andaman Wale Yatri remains a reliable
+          offered by the Andaman Islands, Safar Andaman remains a reliable
           partner, offering not just vacations but memories that last a
           lifetime. "
         </p>

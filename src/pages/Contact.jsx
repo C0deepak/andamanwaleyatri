@@ -1,13 +1,12 @@
 import { useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import emailjs from '@emailjs/browser';
+import { Loader } from 'lucide-react';
 
 import Swal from 'sweetalert2';
 
 const Contact = () => {
-  // eslint-disable-next-line no-unused-vars
-  const [status, setStatus] = useState('Submit');
-
+  const [loading, setLoading] = useState(false);
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -16,65 +15,41 @@ const Contact = () => {
     message: '',
   });
 
-  const resetForm = () => {
-    setFormData({
-      name: '',
-      email: '',
-      phone: '',
-      date: '',
-      message: '',
-    });
-  };
-
   const handleChange = (field, value) => {
     setFormData((prevData) => ({ ...prevData, [field]: value }));
   };
 
-  const form = useRef();
-
-  const sendEmail = (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Form Data:', formData);
-    console.log(form.current);
-    emailjs
-      .sendForm(
-        'service_j51o8rf',
-        'template_nfv806b',
-        form.current,
-        'kCCk2LrIS2qYM90PK'
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          resetForm();
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  };
-  const success = () => {
-    Swal.fire({
-      icon: 'success',
-      position: 'center',
-      title: 'Success! Flight Details Filled',
-      text: "Andaman Wale Yatri's Team. They will reach out to you very soon",
-      showConfirmButton: false,
-      timer: 3500,
-    });
-  };
+    console.log(formData);
+    setLoading(true);
 
-  const alert = () => {
-    Swal.fire({
-      icon: 'error',
-      position: 'center',
-      title: 'Oops.. Something went wrong',
-      text: 'Pls fill in every details, check every input field',
-      showConfirmButton: true,
-      confirmButtonColor: '#3085d6',
-      confirmButtonText: 'OKAY!',
-      timer: 3500,
-    });
+    if (!formData.name || !formData.email || !formData.phone) {
+      alert('Must enter all the fields!')
+    }
+
+    const serviceId = 'service_o9bqitg'
+    const templateId = 'template_adx41fr'
+    const publicKey = '_wTrZthGtB6nxGnxf'
+
+    emailjs
+      .send(serviceId, templateId, formData, publicKey)
+      .then((response) => {
+        alert('Email sent successfully, we will reach out to you soon!')
+        setFormData({
+          name: '',
+          email: '',
+          phone: '',
+          date: '',
+          message: ''
+        })
+        console.log('SUCCESS!', response.status)
+        setLoading(false)
+      })
+      .catch((error) => {
+        console.log('ERROR!', error)
+        setLoading(false)
+      })
   };
 
   return (
@@ -87,31 +62,31 @@ const Contact = () => {
                 Contact Info
               </h1>
               <h1 className="mt-5 text-base text-slate-100 font-medium">
-                Andaman Wale Yatri is your one-stop destination for an
+                Safar Andaman is your one-stop destination for an
                 unforgettable trip to Andaman Islands
               </h1>
               <div className="mt-5 flex gap-2 text-white mx-auto text-center">
                 <h1 className="text-base font-medium text-center mx-auto">
-                  plantripandaman@gmail.com
+                  safarandaman@gmail.com
                 </h1>
               </div>
               <div className="mt-5 flex flex-col gap-2 text-white mx-auto text-center underline">
                 <Link
-                  to="tel:+917063967456"
+                  to="tel:+917908012356"
                   className="text-base font-medium text-center mx-auto"
                 >
-                  +91 7063948704
+                  +91 7908012356
                 </Link>
                 <Link
-                  to="tel:++919434260489"
+                  to="tel:++919679597655"
                   className="text-base font-medium text-center mx-auto"
                 >
-                  +91 9434260489
+                  +91 9679597655
                 </Link>
               </div>
               <div className="mt-5 flex gap-2 text-white mx-auto text-center">
                 <h1 className="text-base font-medium text-center mx-auto">
-                  Port Blair, Aberdeen Bazar, Andaman & Nicobar Islands, 744107
+                  Port Blair, South Andaman, 744101
                 </h1>
               </div>
             </div>
@@ -120,7 +95,7 @@ const Contact = () => {
             <h1 className="mt-28 md:mt-20 px-5 text-center text-3xl font-semibold text-black">
               Contact Us
             </h1>
-            <form ref={form} onSubmit={sendEmail} className="w-full p-2 md:p-5">
+            <form className="w-full p-2 md:p-5" onSubmit={handleSubmit}>
               <div className="flex items-center justify-between flex-col lg:items-start">
                 <div className="grow px-5 py-2 w-full lg:p-0">
                   <label
@@ -216,15 +191,15 @@ const Contact = () => {
               </div>
 
               <div className="lg:mt- mt-3 px-5 lg:flex-col lg:items-start lg:px-0">
-                {
-                  <button
-                    onClick={() => (formData.message ? success() : alert())}
-                    type="submit"
-                    className=" w-[40%] rounded-md bg-gradient-to-br from-emerald-500 via-emerald-600 to-purple-700 p-2 text-white duration-300 ease-in-out hover:scale-105"
-                  >
-                    Submit
-                  </button>
-                }
+                <button
+                  // onClick={() => (formData.message ? success() : alert())}
+                  type="submit"
+                  className="flex items-center gap-4 w-fit rounded-md bg-gradient-to-br from-emerald-500 via-emerald-600 to-purple-700 py-2 px-4 text-white duration-300 ease-in-out hover:scale-105"
+                  disabled={loading}
+                >
+                  {loading && <span className='animate-spin '><Loader /></span>}
+                  Submit
+                </button>
               </div>
             </form>
           </div>

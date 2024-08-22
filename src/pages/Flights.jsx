@@ -203,9 +203,9 @@ const Flights = () => {
           </Swiper>
         </div>
       </div>
-      <div className="flex items-center justify-center mx-auto w-full mb-14">
+      {/* <div className="flex items-center justify-center mx-auto w-full mb-14">
         <Flightsearchform />
-      </div>
+      </div> */}
       <div className="flex-col items-center justify-center mx-auto w-3/4 mb-14">
         <p className="font-bold text-3xl text-left w-full">Note below:</p>
         <p className="w-full text-base md:text-base font-bold text-center pt-2 pb-4">
@@ -213,7 +213,7 @@ const Flights = () => {
           cheapest flights of your need."
         </p>
         <p className="w-full text-base md:text-lg font-normal text-center pt-2">
-          "As soon as you fill up the form, the Andaman Wale Yatri&apos;s Team
+          "As soon as you fill up the form, the Safar Andaman&apos;s Team
           will reach out to you very soon with an email, whatsapp msg or a call
           for further enquiry of your flight requirements."
         </p>

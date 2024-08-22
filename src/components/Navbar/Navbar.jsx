@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Logo from '../../assets/Andaman Wale Yatri final transparent.png';
+import Logo from '../../assets/logonew.png';
 import { NavLink, Link } from 'react-router-dom';
 import { FaCaretDown } from 'react-icons/fa';
 import ResponsiveMenu from './ResponsiveMenu';
