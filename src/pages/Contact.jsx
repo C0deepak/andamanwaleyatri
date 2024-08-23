@@ -26,6 +26,7 @@ const Contact = () => {
 
     if (!formData.name || !formData.email || !formData.phone) {
       alert('Must enter all the fields!')
+      return;
     }
 
     const serviceId = 'service_o9bqitg'
