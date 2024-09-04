@@ -12,26 +12,26 @@ const Hero = () => {
             </p>
           </div>
           <div className="w-full md:w-4/5 px-2 md:px-0 mx-auto text-left text-white">
-            <p className="mt-1 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-mono font-medium">
+            <p className="mt-1 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-medium">
               Explore The
             </p>
           </div>
           <div className="flex flex-row gap-6 w-full md:w-4/5 px-2 md:px-0 mx-auto text-left text-white">
-            <p className="mt-4 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-mono font-medium">
+            <p className="mt-4 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-medium">
               Best
             </p>
-            <p className="mt-4 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-mono font-bold">
+            <p className="mt-4 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold">
               Beautiful
             </p>
           </div>
           <div className="flex flex-row gap-6 w-full md:w-4/5 px-2 md:px-0 mx-auto text-left text-white">
-            <p className="mt-4 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-mono font-bold">
+            <p className="mt-4 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold">
               Places
             </p>
-            <p className="mt-4 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-mono font-medium">
+            <p className="mt-4 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-medium">
               in
             </p>
-            <p className="mt-4 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-mono font-bold">
+            <p className="mt-4 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold">
               Andaman
             </p>
           </div>

@@ -1,3 +1,4 @@
+import { CheckCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const PackageModal = ({ item, closeModal }) => {
@@ -42,12 +43,15 @@ const PackageModal = ({ item, closeModal }) => {
                 {item?.description}
               </p>
             )}
-            <h5 className="text-center text-2xl mt-4">Overview</h5>
-            {item.overview
-              ? item?.overview.map((data) => (
-                  <p className="text-center mt-4 text-gray-600">{data}</p>
-                ))
-              : null}
+            <h5 className="text-2xl mt-4 font-semibold pb-4">Overview</h5>
+            <div className='flex flex-col gap-4'>
+              {item?.overview?.map((desc, index) => (
+                <div key={index} className="flex gap-2 font-montserrat text-[#212529]">
+                  <div className="min-w-6"><CheckCircle size='16' /></div>
+                  <span>{desc}</span>
+                </div>
+              ))}
+            </div>
           </div>
           <div className="flex w-full items-center justify-evenly border-t-[1px] border-gray-300 sm:pt-4 pt-2 sm:mb-0 -mb-2">
             <Link

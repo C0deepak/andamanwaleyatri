@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { Palmtree } from 'lucide-react';
 import { useState } from 'react';
 import BannerImg from '../assets/cover-women.jpg';
