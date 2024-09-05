@@ -1,4 +1,4 @@
-import { CheckCircle } from 'lucide-react';
+import { CheckCircle, CheckCircle2, XCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const PackageModal = ({ item, closeModal }) => {
@@ -48,6 +48,27 @@ const PackageModal = ({ item, closeModal }) => {
               {item?.overview?.map((desc, index) => (
                 <div key={index} className="flex gap-2 font-montserrat text-[#212529]">
                   <div className="min-w-6"><CheckCircle size='16' /></div>
+                  <span>{desc}</span>
+                </div>
+              ))}
+            </div>
+
+            <h5 className="text-2xl mt-4 font-semibold pb-4">Inclusion</h5>
+            <div className='flex flex-col gap-4'>
+              {console.log(item)}
+              {item?.inclusions?.map((desc, index) => (
+                <div key={index} className="flex gap-2 font-montserrat text-[#212529]">
+                  <div className="min-w-6 mt-1 text-green-600"><CheckCircle2 size='16' /></div>
+                  <span>{desc}</span>
+                </div>
+              ))}
+            </div>
+
+            <h5 className="text-2xl mt-4 font-semibold pb-4">Exclusion</h5>
+            <div className='flex flex-col gap-4'>
+              {item?.exclusions?.map((desc, index) => (
+                <div key={index} className="flex gap-2 font-montserrat text-[#212529]">
+                  <div className="min-w-6 mt-1 text-red-600"><XCircle size='16' /></div>
                   <span>{desc}</span>
                 </div>
               ))}

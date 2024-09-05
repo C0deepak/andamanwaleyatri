@@ -113,6 +113,25 @@ const flagshipData = [
       "Stay, transfers, and sightseeing provided.",
       "Personal coordinator assigned for ground assistance."
     ],
+    inclusions: [
+      "Accommodation on double sharing basis at above-mentioned hotels / similar in base category rooms.",
+      "Exclusive a/c vehicle sanitized every time before boarding for pick up and drop as per the itinerary (not at disposal).",
+      "Airport pick up and drop by a/c vehicle.",
+      "Room rates subject to availability.",
+      "Nautika / Makruzz / Green Ocean Cruise (base category) for Neil & Havelock as per the availability.",
+      "Assistance at all arrival and departure points.",
+      "Entry permits | Entry tickets | Parking charges | Boat/ferry tickets wherever applicable."
+    ],
+    exclusions: [
+      "Airfare / Ship's fare. All kinds of personal expenses such as tips, laundry, telephone bills and beverages.",
+      "It does not include any meals unless and otherwise specifically mentioned.",
+      "Guide, Jolly ride & snorkeling charges.",
+      "Optional, suggested or unspecified activities.",
+      "Guide at Cellular jail will cost extra.",
+      "Camera fee (still or movie).",
+      "Additional usage of vehicles.",
+      "Any dispute regarding the child age to be settled directly with the hotels."
+    ]
   },
   {
     name: "Island Hopping",
@@ -129,6 +148,25 @@ const flagshipData = [
       "Best for covering major islands in 5 days.",
       "Recommended itinerary for island lovers."
     ],
+    inclusions: [
+      "Accommodation on double sharing basis at above-mentioned hotels / similar in base category rooms.",
+      "Exclusive a/c vehicle sanitized every time before boarding for pick up and drop as per the itinerary (not at disposal).",
+      "Airport pick up and drop by a/c vehicle.",
+      "Room rates subject to availability.",
+      "Nautika / Makruzz / Green Ocean Cruise (base category) for Neil & Havelock as per the availability.",
+      "Assistance at all arrival and departure points.",
+      "Entry permits | Entry tickets | Parking charges | Boat/ferry tickets wherever applicable."
+    ],
+    exclusions: [
+      "Airfare / Ship's fare. All kinds of personal expenses such as tips, laundry, telephone bills and beverages.",
+      "It does not include any meals unless and otherwise specifically mentioned.",
+      "Guide, Jolly ride & snorkeling charges.",
+      "Optional, suggested or unspecified activities.",
+      "Guide at Cellular jail will cost extra.",
+      "Camera fee (still or movie).",
+      "Additional usage of vehicles.",
+      "Any dispute regarding the child age to be settled directly with the hotels."
+    ]
   },
   {
     name: "Explore Havelock",
@@ -144,6 +182,25 @@ const flagshipData = [
       "Excursions to pure islands in Andaman.",
       "Embrace peace and tranquility during your stay."
     ],
+    inclusions: [
+      "Accommodation on double sharing basis at above-mentioned hotels / similar in base category rooms.",
+      "Exclusive a/c vehicle sanitized every time before boarding for pick up and drop as per the itinerary (not at disposal).",
+      "Airport pick up and drop by a/c vehicle.",
+      "Room rates subject to availability.",
+      "Nautika / Makruzz / Green Ocean Cruise (base category) for Neil & Havelock as per the availability.",
+      "Assistance at all arrival and departure points.",
+      "Entry permits | Entry tickets | Parking charges | Boat/ferry tickets wherever applicable."
+    ],
+    exclusions: [
+      "Airfare / Ship's fare. All kinds of personal expenses such as tips, laundry, telephone bills and beverages.",
+      "It does not include any meals unless and otherwise specifically mentioned.",
+      "Guide, Jolly ride & snorkeling charges.",
+      "Optional, suggested or unspecified activities.",
+      "Guide at Cellular jail will cost extra.",
+      "Camera fee (still or movie).",
+      "Additional usage of vehicles.",
+      "Any dispute regarding the child age to be settled directly with the hotels."
+    ]
   },
   {
     name: "Havelock & Neil Escapade",
@@ -160,6 +217,25 @@ const flagshipData = [
       "Explore diverse marine life.",
       "Recommended for a complete Andaman experience."
     ],
+    inclusions: [
+      "Accommodation on double sharing basis at above-mentioned hotels / similar in base category rooms.",
+      "Exclusive a/c vehicle sanitized every time before boarding for pick up and drop as per the itinerary (not at disposal).",
+      "Airport pick up and drop by a/c vehicle.",
+      "Room rates subject to availability.",
+      "Nautika / Makruzz / Green Ocean Cruise (base category) for Neil & Havelock as per the availability.",
+      "Assistance at all arrival and departure points.",
+      "Entry permits | Entry tickets | Parking charges | Boat/ferry tickets wherever applicable."
+    ],
+    exclusions: [
+      "Airfare / Ship's fare. All kinds of personal expenses such as tips, laundry, telephone bills and beverages.",
+      "It does not include any meals unless and otherwise specifically mentioned.",
+      "Guide, Jolly ride & snorkeling charges.",
+      "Optional, suggested or unspecified activities.",
+      "Guide at Cellular jail will cost extra.",
+      "Camera fee (still or movie).",
+      "Additional usage of vehicles.",
+      "Any dispute regarding the child age to be settled directly with the hotels."
+    ]
   },
   {
     name: "Tropical Andaman",
@@ -176,6 +252,25 @@ const flagshipData = [
       "Ideal for covering most of the places in Andaman.",
       "Experience amazing sights and activities."
     ],
+    inclusions: [
+      "Accommodation on double sharing basis at above-mentioned hotels / similar in base category rooms.",
+      "Exclusive a/c vehicle sanitized every time before boarding for pick up and drop as per the itinerary (not at disposal).",
+      "Airport pick up and drop by a/c vehicle.",
+      "Room rates subject to availability.",
+      "Nautika / Makruzz / Green Ocean Cruise (base category) for Neil & Havelock as per the availability.",
+      "Assistance at all arrival and departure points.",
+      "Entry permits | Entry tickets | Parking charges | Boat/ferry tickets wherever applicable."
+    ],
+    exclusions: [
+      "Airfare / Ship's fare. All kinds of personal expenses such as tips, laundry, telephone bills and beverages.",
+      "It does not include any meals unless and otherwise specifically mentioned.",
+      "Guide, Jolly ride & snorkeling charges.",
+      "Optional, suggested or unspecified activities.",
+      "Guide at Cellular jail will cost extra.",
+      "Camera fee (still or movie).",
+      "Additional usage of vehicles.",
+      "Any dispute regarding the child age to be settled directly with the hotels."
+    ]
   },
   {
     name: "Baratang & Havelock Escapade",
@@ -191,6 +286,25 @@ const flagshipData = [
       "Includes famous Havelock Island.",
       "Unique itinerary for adventure seekers."
     ],
+    inclusions: [
+      "Accommodation on double sharing basis at above-mentioned hotels / similar in base category rooms.",
+      "Exclusive a/c vehicle sanitized every time before boarding for pick up and drop as per the itinerary (not at disposal).",
+      "Airport pick up and drop by a/c vehicle.",
+      "Room rates subject to availability.",
+      "Nautika / Makruzz / Green Ocean Cruise (base category) for Neil & Havelock as per the availability.",
+      "Assistance at all arrival and departure points.",
+      "Entry permits | Entry tickets | Parking charges | Boat/ferry tickets wherever applicable."
+    ],
+    exclusions: [
+      "Airfare / Ship's fare. All kinds of personal expenses such as tips, laundry, telephone bills and beverages.",
+      "It does not include any meals unless and otherwise specifically mentioned.",
+      "Guide, Jolly ride & snorkeling charges.",
+      "Optional, suggested or unspecified activities.",
+      "Guide at Cellular jail will cost extra.",
+      "Camera fee (still or movie).",
+      "Additional usage of vehicles.",
+      "Any dispute regarding the child age to be settled directly with the hotels."
+    ]
   },
   {
     name: "Honeymoon Escapade",
@@ -206,6 +320,25 @@ const flagshipData = [
       "Attractions, activities, and sightseeing included.",
       "Perfect for couples looking for a peaceful getaway."
     ],
+    inclusions: [
+      "Accommodation on double sharing basis at above-mentioned hotels / similar in base category rooms.",
+      "Exclusive a/c vehicle sanitized every time before boarding for pick up and drop as per the itinerary (not at disposal).",
+      "Airport pick up and drop by a/c vehicle.",
+      "Room rates subject to availability.",
+      "Nautika / Makruzz / Green Ocean Cruise (base category) for Neil & Havelock as per the availability.",
+      "Assistance at all arrival and departure points.",
+      "Entry permits | Entry tickets | Parking charges | Boat/ferry tickets wherever applicable."
+    ],
+    exclusions: [
+      "Airfare / Ship's fare. All kinds of personal expenses such as tips, laundry, telephone bills and beverages.",
+      "It does not include any meals unless and otherwise specifically mentioned.",
+      "Guide, Jolly ride & snorkeling charges.",
+      "Optional, suggested or unspecified activities.",
+      "Guide at Cellular jail will cost extra.",
+      "Camera fee (still or movie).",
+      "Additional usage of vehicles.",
+      "Any dispute regarding the child age to be settled directly with the hotels."
+    ]
   },
   {
     name: "Andaman Escapade",
@@ -221,6 +354,25 @@ const flagshipData = [
       "Includes tribal reserves, mangroves, beaches, and more.",
       "A bit of everything Andaman offers."
     ],
+    inclusions: [
+      "Accommodation on double sharing basis at above-mentioned hotels / similar in base category rooms.",
+      "Exclusive a/c vehicle sanitized every time before boarding for pick up and drop as per the itinerary (not at disposal).",
+      "Airport pick up and drop by a/c vehicle.",
+      "Room rates subject to availability.",
+      "Nautika / Makruzz / Green Ocean Cruise (base category) for Neil & Havelock as per the availability.",
+      "Assistance at all arrival and departure points.",
+      "Entry permits | Entry tickets | Parking charges | Boat/ferry tickets wherever applicable."
+    ],
+    exclusions: [
+      "Airfare / Ship's fare. All kinds of personal expenses such as tips, laundry, telephone bills and beverages.",
+      "It does not include any meals unless and otherwise specifically mentioned.",
+      "Guide, Jolly ride & snorkeling charges.",
+      "Optional, suggested or unspecified activities.",
+      "Guide at Cellular jail will cost extra.",
+      "Camera fee (still or movie).",
+      "Additional usage of vehicles.",
+      "Any dispute regarding the child age to be settled directly with the hotels."
+    ]
   },
   {
     name: "Pristine Andaman",
@@ -238,6 +390,25 @@ const flagshipData = [
       "Experience tropical rainforests and virgin beaches.",
       "Perfect 8-day itinerary for a complete Andaman tour."
     ],
+    inclusions: [
+      "Accommodation on double sharing basis at above-mentioned hotels / similar in base category rooms.",
+      "Exclusive a/c vehicle sanitized every time before boarding for pick up and drop as per the itinerary (not at disposal).",
+      "Airport pick up and drop by a/c vehicle.",
+      "Room rates subject to availability.",
+      "Nautika / Makruzz / Green Ocean Cruise (base category) for Neil & Havelock as per the availability.",
+      "Assistance at all arrival and departure points.",
+      "Entry permits | Entry tickets | Parking charges | Boat/ferry tickets wherever applicable."
+    ],
+    exclusions: [
+      "Airfare / Ship's fare. All kinds of personal expenses such as tips, laundry, telephone bills and beverages.",
+      "It does not include any meals unless and otherwise specifically mentioned.",
+      "Guide, Jolly ride & snorkeling charges.",
+      "Optional, suggested or unspecified activities.",
+      "Guide at Cellular jail will cost extra.",
+      "Camera fee (still or movie).",
+      "Additional usage of vehicles.",
+      "Any dispute regarding the child age to be settled directly with the hotels."
+    ]
   },
 ];
 

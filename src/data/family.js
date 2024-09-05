@@ -104,6 +104,25 @@ const familyData = [
       "Visit various places in Port Blair, including beaches, historical landmarks, and enjoy local cuisines.",
       "Take a ferry to Havelock Island, one of the most beautiful islands in Andaman, where you will enjoy scenic beaches and other attractions.",
       "Optionally visit Neil Island, Baratang, or Jolly Bouy Island, depending on your chosen itinerary."
+    ],
+    inclusions: [
+      "Accommodation on double sharing basis at above-mentioned hotels / similar in base category rooms.",
+      "Exclusive a/c vehicle sanitized every time before boarding for pick up and drop as per the itinerary (not at disposal).",
+      "Airport pick up and drop by a/c vehicle.",
+      "Room rates subject to availability.",
+      "Nautika / Makruzz / Green Ocean Cruise (base category) for Neil & Havelock as per the availability.",
+      "Assistance at all arrival and departure points.",
+      "Entry permits | Entry tickets | Parking charges | Boat/ferry tickets wherever applicable."
+    ],
+    exclusions: [
+      "Airfare / Ship's fare. All kinds of personal expenses such as tips, laundry, telephone bills and beverages.",
+      "It does not include any meals unless and otherwise specifically mentioned.",
+      "Guide, Jolly ride & snorkeling charges.",
+      "Optional, suggested or unspecified activities.",
+      "Guide at Cellular jail will cost extra.",
+      "Camera fee (still or movie).",
+      "Additional usage of vehicles.",
+      "Any dispute regarding the child age to be settled directly with the hotels."
     ]
   },
   {
@@ -124,6 +143,25 @@ const familyData = [
       "Explore beaches, historical sites, and local eateries in Port Blair.",
       "Take a trip to Havelock Island and Neil Island, where you can enjoy pristine beaches, water activities, and natural beauty.",
       "Evening entertainment such as shows and performances are part of your tour package."
+    ],
+    inclusions: [
+      "Accommodation on double sharing basis at above-mentioned hotels / similar in base category rooms.",
+      "Exclusive a/c vehicle sanitized every time before boarding for pick up and drop as per the itinerary (not at disposal).",
+      "Airport pick up and drop by a/c vehicle.",
+      "Room rates subject to availability.",
+      "Nautika / Makruzz / Green Ocean Cruise (base category) for Neil & Havelock as per the availability.",
+      "Assistance at all arrival and departure points.",
+      "Entry permits | Entry tickets | Parking charges | Boat/ferry tickets wherever applicable."
+    ],
+    exclusions: [
+      "Airfare / Ship's fare. All kinds of personal expenses such as tips, laundry, telephone bills and beverages.",
+      "It does not include any meals unless and otherwise specifically mentioned.",
+      "Guide, Jolly ride & snorkeling charges.",
+      "Optional, suggested or unspecified activities.",
+      "Guide at Cellular jail will cost extra.",
+      "Camera fee (still or movie).",
+      "Additional usage of vehicles.",
+      "Any dispute regarding the child age to be settled directly with the hotels."
     ]
   },
   {
@@ -144,6 +182,25 @@ const familyData = [
       "Experience the stunning beauty of Havelock Island and Neil Island, with opportunities for sightseeing, water sports, and beach visits.",
       "Optional trips to Baratang or Jolly Bouy Island for a more adventurous exploration of the Andaman Islands.",
       "Evening shows and entertainment options will be available during your stay."
+    ],
+    inclusions: [
+      "Accommodation on double sharing basis at above-mentioned hotels / similar in base category rooms.",
+      "Exclusive a/c vehicle sanitized every time before boarding for pick up and drop as per the itinerary (not at disposal).",
+      "Airport pick up and drop by a/c vehicle.",
+      "Room rates subject to availability.",
+      "Nautika / Makruzz / Green Ocean Cruise (base category) for Neil & Havelock as per the availability.",
+      "Assistance at all arrival and departure points.",
+      "Entry permits | Entry tickets | Parking charges | Boat/ferry tickets wherever applicable."
+    ],
+    exclusions: [
+      "Airfare / Ship's fare. All kinds of personal expenses such as tips, laundry, telephone bills and beverages.",
+      "It does not include any meals unless and otherwise specifically mentioned.",
+      "Guide, Jolly ride & snorkeling charges.",
+      "Optional, suggested or unspecified activities.",
+      "Guide at Cellular jail will cost extra.",
+      "Camera fee (still or movie).",
+      "Additional usage of vehicles.",
+      "Any dispute regarding the child age to be settled directly with the hotels."
     ]
   },
   {
@@ -164,6 +221,25 @@ const familyData = [
       "Explore the beaches and historical landmarks of Port Blair, along with the beautiful islands of Havelock and Neil.",
       "Optional day trips to Baratang, North Bay, or Jolly Bouy Island offer additional adventure and exploration.",
       "Enjoy evening entertainment like shows and cultural performances as part of your holiday experience."
+    ],
+    inclusions: [
+      "Accommodation on double sharing basis at above-mentioned hotels / similar in base category rooms.",
+      "Exclusive a/c vehicle sanitized every time before boarding for pick up and drop as per the itinerary (not at disposal).",
+      "Airport pick up and drop by a/c vehicle.",
+      "Room rates subject to availability.",
+      "Nautika / Makruzz / Green Ocean Cruise (base category) for Neil & Havelock as per the availability.",
+      "Assistance at all arrival and departure points.",
+      "Entry permits | Entry tickets | Parking charges | Boat/ferry tickets wherever applicable."
+    ],
+    exclusions: [
+      "Airfare / Ship's fare. All kinds of personal expenses such as tips, laundry, telephone bills and beverages.",
+      "It does not include any meals unless and otherwise specifically mentioned.",
+      "Guide, Jolly ride & snorkeling charges.",
+      "Optional, suggested or unspecified activities.",
+      "Guide at Cellular jail will cost extra.",
+      "Camera fee (still or movie).",
+      "Additional usage of vehicles.",
+      "Any dispute regarding the child age to be settled directly with the hotels."
     ]
   }
 ];

@@ -97,6 +97,25 @@ const honeyMoonData = [
       "Upon arrival, couples are greeted at the airport and taken to their hotel for check-in. The itinerary includes visiting various destinations around Port Blair, experiencing both natural beauty and cultural sites. A visit to Havelock Island for a beach getaway is also included.",
       "Special arrangements can be made to cater to couples’ specific preferences to ensure a perfect romantic experience in the Andaman Islands.",
     ],
+    inclusions: [
+      "Accommodation on double sharing basis at above-mentioned hotels / similar in base category rooms.",
+      "Exclusive a/c vehicle sanitized every time before boarding for pick up and drop as per the itinerary (not at disposal).",
+      "Airport pick up and drop by a/c vehicle.",
+      "Room rates subject to availability.",
+      "Nautika / Makruzz / Green Ocean Cruise (base category) for Neil & Havelock as per the availability.",
+      "Assistance at all arrival and departure points.",
+      "Entry permits | Entry tickets | Parking charges | Boat/ferry tickets wherever applicable."
+    ],
+    exclusions: [
+      "Airfare / Ship's fare. All kinds of personal expenses such as tips, laundry, telephone bills and beverages.",
+      "It does not include any meals unless and otherwise specifically mentioned.",
+      "Guide, Jolly ride & snorkeling charges.",
+      "Optional, suggested or unspecified activities.",
+      "Guide at Cellular jail will cost extra.",
+      "Camera fee (still or movie).",
+      "Additional usage of vehicles.",
+      "Any dispute regarding the child age to be settled directly with the hotels."
+    ]
   },
   {
     duration: "5 Nights & 6 Days",
@@ -114,6 +133,25 @@ const honeyMoonData = [
       "Couples are picked up from the airport and transferred to their hotel. Over the 6 days, you will experience Port Blair’s rich history, the scenic beauty of Havelock and Neil Islands, and have the opportunity for evening activities and shows.",
       "This package is ideal for couples looking for an extended and immersive romantic experience.",
     ],
+    inclusions: [
+      "Accommodation on double sharing basis at above-mentioned hotels / similar in base category rooms.",
+      "Exclusive a/c vehicle sanitized every time before boarding for pick up and drop as per the itinerary (not at disposal).",
+      "Airport pick up and drop by a/c vehicle.",
+      "Room rates subject to availability.",
+      "Nautika / Makruzz / Green Ocean Cruise (base category) for Neil & Havelock as per the availability.",
+      "Assistance at all arrival and departure points.",
+      "Entry permits | Entry tickets | Parking charges | Boat/ferry tickets wherever applicable."
+    ],
+    exclusions: [
+      "Airfare / Ship's fare. All kinds of personal expenses such as tips, laundry, telephone bills and beverages.",
+      "It does not include any meals unless and otherwise specifically mentioned.",
+      "Guide, Jolly ride & snorkeling charges.",
+      "Optional, suggested or unspecified activities.",
+      "Guide at Cellular jail will cost extra.",
+      "Camera fee (still or movie).",
+      "Additional usage of vehicles.",
+      "Any dispute regarding the child age to be settled directly with the hotels."
+    ]
   },
   {
     duration: "6 Nights & 7 Days",
@@ -131,6 +169,25 @@ const honeyMoonData = [
       "Couples are welcomed at the airport and transferred to their hotel to start their honeymoon adventure. Throughout the 7 days, the itinerary includes visits to historical landmarks, beach resorts, and evening activities. Cruises and boat rides are included for couples to enjoy the serene waters of Andaman.",
       "The package ensures a balance of exploration and relaxation, providing a perfect romantic journey for couples.",
     ],
+    inclusions: [
+      "Accommodation on double sharing basis at above-mentioned hotels / similar in base category rooms.",
+      "Exclusive a/c vehicle sanitized every time before boarding for pick up and drop as per the itinerary (not at disposal).",
+      "Airport pick up and drop by a/c vehicle.",
+      "Room rates subject to availability.",
+      "Nautika / Makruzz / Green Ocean Cruise (base category) for Neil & Havelock as per the availability.",
+      "Assistance at all arrival and departure points.",
+      "Entry permits | Entry tickets | Parking charges | Boat/ferry tickets wherever applicable."
+    ],
+    exclusions: [
+      "Airfare / Ship's fare. All kinds of personal expenses such as tips, laundry, telephone bills and beverages.",
+      "It does not include any meals unless and otherwise specifically mentioned.",
+      "Guide, Jolly ride & snorkeling charges.",
+      "Optional, suggested or unspecified activities.",
+      "Guide at Cellular jail will cost extra.",
+      "Camera fee (still or movie).",
+      "Additional usage of vehicles.",
+      "Any dispute regarding the child age to be settled directly with the hotels."
+    ]
   },
   {
     duration: "7 Nights & 8 Days",
@@ -149,6 +206,25 @@ const honeyMoonData = [
       "This extended honeymoon package is ideal for couples who want a comprehensive and unforgettable Andaman experience, with personal expenses being the only extra cost.",
     ],
     lastUpdated: "Last updated 3 mins ago",
+    inclusions: [
+      "Accommodation on double sharing basis at above-mentioned hotels / similar in base category rooms.",
+      "Exclusive a/c vehicle sanitized every time before boarding for pick up and drop as per the itinerary (not at disposal).",
+      "Airport pick up and drop by a/c vehicle.",
+      "Room rates subject to availability.",
+      "Nautika / Makruzz / Green Ocean Cruise (base category) for Neil & Havelock as per the availability.",
+      "Assistance at all arrival and departure points.",
+      "Entry permits | Entry tickets | Parking charges | Boat/ferry tickets wherever applicable."
+    ],
+    exclusions: [
+      "Airfare / Ship's fare. All kinds of personal expenses such as tips, laundry, telephone bills and beverages.",
+      "It does not include any meals unless and otherwise specifically mentioned.",
+      "Guide, Jolly ride & snorkeling charges.",
+      "Optional, suggested or unspecified activities.",
+      "Guide at Cellular jail will cost extra.",
+      "Camera fee (still or movie).",
+      "Additional usage of vehicles.",
+      "Any dispute regarding the child age to be settled directly with the hotels."
+    ]
   },
 ];
 
