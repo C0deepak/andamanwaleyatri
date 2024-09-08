@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import { Palmtree } from 'lucide-react';
+import { Boxes, LandPlot, Palmtree, PlaneIcon, Ship } from 'lucide-react';
 import { useState } from 'react';
 import BannerImg from '../assets/cover-women.jpg';
 import andamanPic from '../assets/images/pexels-asad-photo-maldives-457882.jpg';
@@ -200,36 +200,43 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            {/* <div className="flex items-center justify-center mt-10 mx-auto">
-              <Flightsearchform />
-            </div> */}
-            <FerryPackage />
-            {/* <div className="w-full flex sm:flex-row flex-col mt-20 px-0 xl:px-20 xl:mt-16 lexs:px-1 gap-x-8 justify-evenly xl:mb-16 md:mb-12 sm:mb-8 mb-4">
-            <div className="flex flex-col sm:w-[50%] w-full sm:px-0 px-4">
-              <p className="md:text-2xl text-xl tracking-[0.2em] font-[550]">
-                GETTING AROUND ANDAMAN
-              </p>
-              <h1 className="md:text-5xl text-4xl font-[550] text-emerald-800 mb-8">
-                PLAN YOUR TRIP
+
+            <div className="w-full py-16 sm:px-10 lg:px-16 xl:px-20 xl:py-12 lexs:px-1 px-2 flex justify-center flex-col">
+              <h1 className="w-full md:text-[2.75rem] sm:text-4xl text-3xl font-roboto font-semibold text-center tracking-wider py-8">
+                Andaman Best Travel Agency
               </h1>
-              <p className="font-medium text-slate-700 sm:leading-8 mb-8 leading-6">
-                Nulla qui deserunt occaecat amet ut proident sunt pariatur in
-                aute excepteur tempor. Ullamco quis esse ea culpa Lorem non
-                culpa. Esse velit id eu fugiat tempor non in. Proident qui duis
-                et deserunt reprehenderit. Nulla qui deserunt occaecat amet ut
-                proident sunt pariatur in aute excepteur tempor. Ullamco quis
-                esse ea culpa Lorem non culpa. Esse velit id eu fugiat tempor
-                non in. Proident qui duis et deserunt reprehenderit.
-              </p>
+
+              <div className='gap-8 grid grid-cols-2 md:grid-cols-4'>
+                <div className='p-2 bg-white'>
+                  <div className='bg-gradient-to-tl from-[#ffa399] to-[#f73b3b] md:p-8 p-4 font-semibold flex flex-col gap-4 md:gap-6 items-center justify-center text-xl md:text-2xl'>
+                    <Boxes size={30} />
+                    <p>Packages</p>
+                  </div>
+                </div>
+
+                <div className='p-2 bg-white'>
+                  <div className='bg-gradient-to-tl from-[#ffa399] to-[#f73b3b] md:p-8 p-4 font-semibold flex flex-col gap-4 md:gap-6 items-center justify-center text-xl md:text-2xl'>
+                    <Ship size={30} />
+                    <p>Ferry</p>
+                  </div>
+                </div>
+
+                <div className='p-2 bg-white'>
+                  <div className='bg-gradient-to-tl from-[#ffa399] to-[#f73b3b] md:p-8 p-4 font-semibold flex flex-col gap-4 md:gap-6 items-center justify-center text-xl md:text-2xl'>
+                    <LandPlot size={30} />
+                    <p>Activity</p>
+                  </div>
+                </div>
+
+                <div className='p-2 bg-white'>
+                  <div className='bg-gradient-to-tl from-[#ffa399] to-[#f73b3b] md:p-8 p-4 font-semibold flex flex-col gap-4 md:gap-6 items-center justify-center text-xl md:text-2xl'>
+                    <PlaneIcon size={30} />
+                    <p>Packages</p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <Image
-              src="https://2minutetabletop.com/wp-content/uploads/2020/02/Arvyre-Continent-Map-23x16-Base-Map.jpg"
-              height={720}
-              width={1080}
-              className="sm:w-[50%] w-full md:h-full sm:h-[70vh] sm:px-0 px-4"
-              
-            />
-          </div> */}
+
             <div className="w-full flex justify-center flex-col">
               {/* {filterPackages(soloData).length !== 0 ? (
                 <div className="w-full md:mt-8 xl:p-12 md:p-8 sm:p-6 p-4 sm:mt-4 mt-0">
@@ -281,6 +288,37 @@ const Home = () => {
                 </div>
               </div>
             </div>
+            {/* <div className="flex items-center justify-center mt-10 mx-auto">
+              <Flightsearchform />
+            </div> */}
+            <FerryPackage />
+            {/* <div className="w-full flex sm:flex-row flex-col mt-20 px-0 xl:px-20 xl:mt-16 lexs:px-1 gap-x-8 justify-evenly xl:mb-16 md:mb-12 sm:mb-8 mb-4">
+            <div className="flex flex-col sm:w-[50%] w-full sm:px-0 px-4">
+              <p className="md:text-2xl text-xl tracking-[0.2em] font-[550]">
+                GETTING AROUND ANDAMAN
+              </p>
+              <h1 className="md:text-5xl text-4xl font-[550] text-emerald-800 mb-8">
+                PLAN YOUR TRIP
+              </h1>
+              <p className="font-medium text-slate-700 sm:leading-8 mb-8 leading-6">
+                Nulla qui deserunt occaecat amet ut proident sunt pariatur in
+                aute excepteur tempor. Ullamco quis esse ea culpa Lorem non
+                culpa. Esse velit id eu fugiat tempor non in. Proident qui duis
+                et deserunt reprehenderit. Nulla qui deserunt occaecat amet ut
+                proident sunt pariatur in aute excepteur tempor. Ullamco quis
+                esse ea culpa Lorem non culpa. Esse velit id eu fugiat tempor
+                non in. Proident qui duis et deserunt reprehenderit.
+              </p>
+            </div>
+            <Image
+              src="https://2minutetabletop.com/wp-content/uploads/2020/02/Arvyre-Continent-Map-23x16-Base-Map.jpg"
+              height={720}
+              width={1080}
+              className="sm:w-[50%] w-full md:h-full sm:h-[70vh] sm:px-0 px-4"
+              
+            />
+          </div> */}
+
             {/* <div className="w-full flex justify-between flex-col items-center mx-auto gap-y-4 xl:px-16 px-0">
               <p className="md:text-2xl text-xl tracking-[0.2em] font-[550]">
                 GETTING TO ANDAMAN ISLANDS

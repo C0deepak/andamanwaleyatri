@@ -39,7 +39,7 @@ const Hero = () => {
             <div className="mt-10">
               <Link
                 to="/packages"
-                className="px-6 py-3 rounded-md bg-gradient-to-tl from-[#ff503dac] to-[#c30808] text-base font-poppins font-semibold hover:underline"
+                className="px-8 py-4 rounded-md bg-gradient-to-tl from-[#ff503dac] to-[#c30808] text-xl font-poppins font-semibold hover:underline"
               >
                 Checkout Packages
               </Link>

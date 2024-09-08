@@ -315,32 +315,32 @@ const TravelPackage = () => {
         <h1 className="font-medium text-4xl mt-14 xl:text-6xl text-center pb-20 tracking-wider">
           Top Places To Visit
         </h1>
-        <div className="grid mb-5 xl:grid-cols-3 md:grid-cols-2 gap-8 justify-center md:ml-0 items-center">
+        <div className="grid mb-5 xl:grid-cols-3 md:grid-cols-2 gap-10 justify-center md:ml-0 items-center">
           {travelPackageData.map((packages) => (
             <div
               key={packages.id}
-              className="w-[375px] mb-8 pb-3 rounded-lg shadow-md"
+              className="w-[375px] mb-8 rounded-lg shadow-md"
               onClick={() => openModal(packages)}
             >
               <div className="bg-white rounded-lg">
-                <div className="">
-                  <img
-                    src={packages.imgLink}
-                    alt={packages.name}
-                    className="w-full h-60 object-cover rounded-t-lg mb-4"
-                  />
-                </div>
                 <div className="p-4">
-                  <h2 className="text-xl font-normal pb-2 mb-2">
+                  <h2 className="text-xl font-bold">
                     {packages.name}
                   </h2>
-                  <h2 className="text-sm pb-2 font-bold mb-2">
+                  {/* <h2 className="text-sm pb-2 font-bold mb-2">
                     {packages.title}
                   </h2>
                   <p className="text-gray-700">{packages.description}</p>
                   <p className="text-sm text-gray-500 mt-2">
                     {packages.update}
-                  </p>
+                  </p> */}
+                </div>
+                <div className="">
+                  <img
+                    src={packages.imgLink}
+                    alt={packages.name}
+                    className="w-full h-60 object-cover rounded-b-lg"
+                  />
                 </div>
               </div>
             </div>
@@ -349,30 +349,30 @@ const TravelPackage = () => {
         <h1 className="font-medium text-4xl xl:text-6xl text-center pb-20 tracking-wider">
           Offbeat Places To Visit
         </h1>
-        <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-8 justify-center">
+        <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-10 justify-center">
           {offBeatPlaces.map((places) => (
             <div
               key={places.id}
-              className="w-[375px] mb-8 pb-3 rounded-lg shadow-md"
+              className="w-[375px] mb-8 rounded-lg shadow-md"
               onClick={() => setSelectedPlace(places)}
             >
               <div className="bg-white rounded-lg">
+                <div className="p-4">
+                  <h2 className="text-xl font-bold">
+                    {places.name}
+                  </h2>
+                  {/* <h2 className="text-sm pb-2 font-bold mb-2">
+                    {places.title}
+                  </h2>
+                  <p className="text-gray-700">{places.description}</p>
+                  <p className="text-sm text-gray-500 mt-2">{places.update}</p> */}
+                </div>
                 <div className="">
                   <img
                     src={places.imgLink}
                     alt={places.name}
-                    className="w-full h-60 object-cover rounded-t-lg mb-4"
+                    className="w-full h-60 object-cover rounded-b-lg"
                   />
-                </div>
-                <div className="p-4">
-                  <h2 className="text-xl font-normal pb-2 mb-2">
-                    {places.name}
-                  </h2>
-                  <h2 className="text-sm pb-2 font-bold mb-2">
-                    {places.title}
-                  </h2>
-                  <p className="text-gray-700">{places.description}</p>
-                  <p className="text-sm text-gray-500 mt-2">{places.update}</p>
                 </div>
               </div>
             </div>
