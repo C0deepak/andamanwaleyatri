@@ -18,6 +18,8 @@ import honeyMoonData from '../data/honeyMoon';
 import Flightsearchform from './Flightsearchform';
 import FerryPackage from '../components/TravelPackage/FerryPackage';
 import justenjoy from '../assets/images/justenjoy.jpg';
+import { Link } from 'react-router-dom';
+import HeroCarousel from '../components/HeroCarousel/HeroCarousel';
 
 const Home = () => {
   const [orderPopup, setOrderPopup] = useState(false);
@@ -60,13 +62,14 @@ const Home = () => {
   return (
     <>
       <div>
-        <div className="h-[700px] relative">
+        {/* <div className="h-[700px] relative">
           <img
             src={andamanPic}
             className="absolute right-0 top-0 h-[700px] w-full object-cover z-[-1]"
           />
           <Hero />
-        </div>
+        </div> */}
+        <HeroCarousel />
         <div className="w-full md:pt-14 pt-8">
           <h1 className="text-center md:text-2xl text-xl tracking-[0.2em] font-[550]">
             AN UNIQUE ISLAND
@@ -78,10 +81,11 @@ const Home = () => {
             size={'36px'}
             className="text-center w-full mt-4 text-yellow-400"
           />
-          <div className="flex flex-col md:mx-16 md:items-center justify-between mt-12 gap-y-10 text-lg font-[430] xl:px-20 lexs:text-base sm:mx-10 mx-6">
-            <div className="flex md:flex-row flex-col gap-x-10 w-full gap-y-8">
-              <div>
-                Andaman, the southernmost haven in the Bay of Bengal, extends
+          <div className="flex flex-col w-full md:px-16 md:items-center justify-between my-12 gap-y-10 text-lg font-[430] xl:px-20 lexs:text-base sm:px-10 px-6">
+            <div className="text-center flex flex-col gap-x-2 w-full">
+              <div className='w-full'>
+                Embark on an unforgettable journey to the breathtaking Andaman and Nicobar Islands with Safar Andaman Tour and Travels. Explore the turquoise waters, pristine beaches, and lush forests of this tropical paradise.
+                {/* Andaman, the southernmost haven in the Bay of Bengal, extends
                 over 800 square kilometers, showcasing an array of landscapes
                 that captivate the beholder. Recognized as a UNESCO{' '}
                 <span className="text-red-600 font-semibold">
@@ -90,10 +94,11 @@ const Home = () => {
                 in 1993, Andaman boasts a{' '}
                 <span className="font-semibold text-black">
                   rich natural heritage.
-                </span>
+                </span> */}
               </div>
-              <div>
-                Shaped by historical volcanic activity, the archipelago reveals
+              <div className='w-full'>
+                Experience the thrill of snorkeling, diving, and kayaking in the crystal-clear waters of Havelock Island, or take a boat ride to the stunning Ross Island. Visit the historic Cellular Jail, and learn about the islands&apos; rich history.
+                {/* Shaped by historical volcanic activity, the archipelago reveals
                 pristine{' '}
                 <span className="text-red-600 font-semibold">
                   white-sand beaches
@@ -103,12 +108,13 @@ const Home = () => {
                 <span className="font-semibold text-black">
                   volcanic grottos, lava lakes, and craters,
                 </span>{' '}
-                forming a surreal and captivating backdrop.
+                forming a surreal and captivating backdrop. */}
               </div>
             </div>
-            <div className="flex md:flex-row flex-col gap-x-10 w-full gap-y-8">
-              <div>
-                In Andaman, lively tourist centers with luxurious accommodations
+            <div className="text-center flex flex-col gap-x-2 w-full">
+              <div className='w-full'>
+                As the sun sets, gather around a bonfire on the beach, and share stories of the day&apos;s adventures. With Safar Andaman Tour and Travels, create lifelong moments -
+                {/* In Andaman, lively tourist centers with luxurious accommodations
                 seamlessly coexist with rural expanses. Venture beyond the
                 vibrant spots to discover{' '}
                 <span className="font-semibold text-black">
@@ -117,20 +123,21 @@ const Home = () => {
                 <span className="text-red-600 font-semibold">
                   solitary islands
                 </span>
-                , offering a retreat into serenity.
+                , offering a retreat into serenity. */}
               </div>
-              <div>
-                Reflecting the allure of its natural splendor, Andaman invites
+              <div className='w-full'>
+                from witnessing the majestic sunset at Radhanagar Beach to taking a scenic trek through the lush forests of Mount Harriet National Park. Get ready for an adventure of a lifetime in the Andaman and Nicobar Islands!
+                {/* Reflecting the allure of its natural splendor, Andaman invites
                 exploration of its enchanting tapestry, blending human vibrancy
                 with untouched scenic beauty, creating a{' '}
                 <span className="font-semibold text-black">
                   harmonious destination for travelers
                 </span>{' '}
-                seeking both the familiar and the extraordinary.
+                seeking both the familiar and the extraordinary. */}
               </div>
             </div>
           </div>
-          <ActivitiesCarousel />
+          {/* <ActivitiesCarousel /> */}
           <div className="bg-[#F4EFE5] w-full py-16 sm:px-10 lg:px-16 xl:px-20 xl:py-12 lexs:px-1 px-2">
             <div className="flex justify-evenly w-full md:flex-row flex-col items-center gap-y-8">
               <img
@@ -140,12 +147,12 @@ const Home = () => {
                 className="md:w-[40%] w-[85%] md:h-[70vh] h-[60vh] rounded-md shadow-xl sharpness-150 contrast-125 brightness-90"
               />
               <div className="flex flex-col md:w-[45%] w-[90%]">
-                <p className="md:text-2xl text-xl tracking-[0.2em] font-[550]">
+                {/* <p className="md:text-2xl text-xl tracking-[0.2em] font-[550]">
                   WHAT TO DO
                 </p>
                 <h1 className="md:text-5xl text-4xl font-[550] text-emerald-800 mb-8">
                   JUST ENJOY
-                </h1>
+                </h1> */}
                 <p className="font-medium text-slate-700 sm:leading-8 leading-6">
                   Embark on a journey with Safar Andaman and discover the
                   allure of these paradisiacal islands. Whether you are a solo
@@ -156,7 +163,7 @@ const Home = () => {
                   that transcend the ordinary. Safar Andaman - where every
                   journey is a story waiting to be told.
                 </p>
-                <div className="flex text-red-500 gap-x-10 text-lg mt-8 font-semibold leading-9 xs:px-4 justify-center md:justify-evenly flex-col sm:flex-row">
+                {/* <div className="flex text-red-500 gap-x-10 text-lg mt-8 font-semibold leading-9 xs:px-4 justify-center md:justify-evenly flex-col sm:flex-row">
                   <div className="flex flex-col gap-y-1 lexs:gap-y-0">
                     <p>Enjoy on Beaches</p>
                     <p>Sports & Boating</p>
@@ -168,10 +175,10 @@ const Home = () => {
                     <p>Spa & Relax</p>
                     <p>Convention Bureau</p>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
-            <div className="w-full flex justify-center mt-24 lexs:mt-12">
+            {/* <div className="w-full flex justify-center mt-24 lexs:mt-12">
               <div className="flex md:flex-row bg-white rounded-sm shadow-2xl flex-col-reverse xl:w-[65%] sm:w-[75%] w-[100%]">
                 <div className="xl:py-12 xl:pl-10 md:w-[50%] py-6 w-full md:px-6 px-4">
                   <h1 className="tracking-[0.175em] font-semibold text-2xl font-popins leading-10 mb-6 xl:leading-8 sm:text-xl">
@@ -183,11 +190,6 @@ const Home = () => {
                     experiences, curated for your wanderlust. Let every moment
                     be a chapter in your unforgettable travel tale.
                   </p>
-                  {/* <div className="w-full flex items-center mt-8 sxl:mt-4 md:justify-center">
-                  <button className="rounded-xl bg-yellow-400 text-lg w-[90%] font-[700] py-3 font-montserrat px-3 sxl:text-base sxl:font-semibold">
-                    DOWNLOAD BROCHURE
-                  </button>
-                </div> */}
                 </div>
                 <div className="md:w-[50%] xl:p-8 p-4 w-full">
                   <img
@@ -199,7 +201,7 @@ const Home = () => {
                   />
                 </div>
               </div>
-            </div>
+            </div> */}
 
             <div className="w-full py-16 sm:px-10 lg:px-16 xl:px-20 xl:py-12 lexs:px-1 px-2 flex justify-center flex-col">
               <h1 className="w-full md:text-[2.75rem] sm:text-4xl text-3xl font-roboto font-semibold text-center tracking-wider py-8">
@@ -207,33 +209,33 @@ const Home = () => {
               </h1>
 
               <div className='gap-8 grid grid-cols-2 md:grid-cols-4'>
-                <div className='p-2 bg-white'>
+                <Link to='/packages' className='p-2 bg-white'>
                   <div className='bg-gradient-to-tl from-[#ffa399] to-[#f73b3b] md:p-8 p-4 font-semibold flex flex-col gap-4 md:gap-6 items-center justify-center text-xl md:text-2xl'>
                     <Boxes size={30} />
                     <p>Packages</p>
                   </div>
-                </div>
+                </Link>
 
-                <div className='p-2 bg-white'>
+                <Link to='/cruise' className='p-2 bg-white'>
                   <div className='bg-gradient-to-tl from-[#ffa399] to-[#f73b3b] md:p-8 p-4 font-semibold flex flex-col gap-4 md:gap-6 items-center justify-center text-xl md:text-2xl'>
                     <Ship size={30} />
                     <p>Ferry</p>
                   </div>
-                </div>
+                </Link>
 
-                <div className='p-2 bg-white'>
+                <Link to='/topplaces' className='p-2 bg-white'>
                   <div className='bg-gradient-to-tl from-[#ffa399] to-[#f73b3b] md:p-8 p-4 font-semibold flex flex-col gap-4 md:gap-6 items-center justify-center text-xl md:text-2xl'>
                     <LandPlot size={30} />
-                    <p>Activity</p>
+                    <p>Places</p>
                   </div>
-                </div>
+                </Link>
 
-                <div className='p-2 bg-white'>
+                <Link to='/flights' className='p-2 bg-white'>
                   <div className='bg-gradient-to-tl from-[#ffa399] to-[#f73b3b] md:p-8 p-4 font-semibold flex flex-col gap-4 md:gap-6 items-center justify-center text-xl md:text-2xl'>
                     <PlaneIcon size={30} />
-                    <p>Packages</p>
+                    <p>Flights</p>
                   </div>
-                </div>
+                </Link>
               </div>
             </div>
 
