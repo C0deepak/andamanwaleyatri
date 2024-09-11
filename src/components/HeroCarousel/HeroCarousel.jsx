@@ -45,7 +45,7 @@ const HeroCarousel = () => {
                 spaceBetween={30}
                 loop={true}
                 autoplay={{
-                    delay: 3000000,
+                    delay: 3000,
                     disableOnInteraction: false,
                 }}
                 pagination={{ clickable: true }}
@@ -67,10 +67,10 @@ const HeroCarousel = () => {
                             <h1 className='font-bold text-3xl md:text-5xl'>{banner.heading}</h1>
                             <p className='font-medium text-base md:text-xl'>{banner.para}</p>
                             <Link
-                                to="/packages"
+                                to="/watersports"
                                 className="w-fit px-6 py-3 rounded-md bg-gradient-to-tl from-[#ff503dac] to-[#c30808] text-medium font-poppins font-semibold hover:underline"
                             >
-                                Checkout Packages
+                                Checkout Activities
                             </Link>
                         </div>
                     </SwiperSlide>
